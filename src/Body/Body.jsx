@@ -27,7 +27,7 @@ export const Body = () => {
                 <a href="https://www.linkedin.com/in/jo%C3%A3oryan/" target="_blank"><Button label="Linkedin" icon="line-md:linkedin"/></a>
                 <a href="https://www.instagram.com/garotoceanoo/" target="_blank"><Button label="Instagram" icon="line-md:instagram"/></a>
                 <a href="mailto:joaoryanoliveira2005@gmail.com" target="_blank"><Button label="E-mail" icon="line-md:email" /></a>
-                <a href="https://drive.google.com/file/d/12YebeoRCrXDTixICqQAcauuyi54mfS4q/view?usp=sharing" target="_blank"><Button label="CV" icon="pepicons-pop:cv"  /></a>
+                <a href="https://drive.google.com/file/d/1wgTWyHBD4WJWkHMxCaTIXkFg7rmrulpM/view?usp=sharing" target="_blank"><Button label="CV" icon="pepicons-pop:cv"  /></a>
             </section>
         </div>
         
