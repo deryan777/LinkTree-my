@@ -1,0 +1,84 @@
+
+
+.Body {
+    width: 600px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.685);
+    display: flex;
+    font-family: "Inter";
+}
+
+.terminal {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.name-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    gap: 5px;
+
+
+    h1 {
+        height: 1px;
+    }
+}
+
+.bio {
+    font-weight: 700;
+    display: flex;
+    gap: .3125rem;
+}
+
+.bio-blue {
+    color: rgba(58, 22, 156, 0.932);
+}
+
+.contats {
+    display: flex;
+    justify-content: center;
+    gap: .625rem;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    padding: 8px;
+    
+    a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width: 800px) {
+        .Body{
+            display: flex;
+            width: 390px;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+        }
+
+        .terminal {
+            display: flex;
+            margin-left: -250px;
+        }
+
+        a {
+            width: 100%;
+        }
+}
