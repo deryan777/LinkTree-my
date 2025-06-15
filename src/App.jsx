@@ -1,5 +1,4 @@
 
-import './App.css'
 import { Body } from './Body/Body'
 
 function App() {

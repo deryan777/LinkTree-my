@@ -82,3 +82,49 @@
             width: 100%;
         }
 }
+
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bio-section {
+    flex: 1;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bio-section h2 {
+    color: #06131f;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.bio-section p {
+    color: #e9ecef;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+/* Se quiser deixar responsivo */
+@media (max-width: 768px) {
+    .body-container {
+        flex-direction: column;
+    }
+    
+    .bio-section {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
